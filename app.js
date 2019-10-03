@@ -1,6 +1,17 @@
-function handleSubmit(e) {
-    // Find the value
-    console.log(e);
+const form = document.querySelector('form');
+const input = document.querySelector('input');
+
+form.onsubmit = handleSubmit;
+
+function handleSubmit() {
+    let characterCount = countCharacters(input.value);
+
+    d3.select('#letters')
+        .selectAll('div')
+        .data(['a', 'b', 'c'])
+        .enter()
+        .append('div')
+        .attr('class', 'letter')
 }
 
 
