@@ -10,21 +10,21 @@ header {
   font-family: sans-serif;
 }
 
-form > input {
+form>input {
   width: 60%;
   padding: 8px;
   border-radius: 8px;
   border: none;
 }
 
-form > button {
+form>button {
   padding: 8px;
   border-radius: 8px;
   background-color: #d0d0f9;
   border: none;
 }
 
-form > button:hover {
+form>button:hover {
   cursor: pointer;
   background-color: #6a6a8e;
 }
@@ -39,6 +39,8 @@ form > button:hover {
   text-align: center;
   background-color: #ffc800;
   vertical-align: bottom;
+  width: 10px;
+  height: 10px;
 }
 
 .new {
